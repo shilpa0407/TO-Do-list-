@@ -1,0 +1,54 @@
+.list{
+    list-style-type: none;
+    text-align: left;
+    margin-top: 5rem;
+}
+
+@media screen and (max-width:480px){
+    .list{
+       
+        list-style-type: none;
+        margin-left: 0rem;
+        margin-top: 2rem;
+    
+    }
+ }
+
+.table{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.table .id{
+ font-size: 16px;
+    font-weight: bold;
+}
+ .table .list-name{
+    font-size: 20px;
+    font-weight: bold;
+ }
+
+ .table .edit-icon{
+    color: rgba(0, 128, 0, 0.555);
+   font-size: 26px;
+ }
+
+ .edit-icon button{
+    background-color: none;
+ }
+ .table .edit-icon:hover{
+    color: green;  
+ }
+
+
+ .table .delete-icon{
+    color: rgba(255, 0, 0, 0.534);
+    font-size: 26px;
+    }
+    .table .delete-icon:hover{
+        color: red;
+    }
+
+   
